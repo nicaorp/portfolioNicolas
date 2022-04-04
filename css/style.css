@@ -468,7 +468,10 @@ section.home {
 
 @media (max-width: 1068px) {
     .home-img {
-        display: none;
+        display: block;
+        position: relative;
+        max-height: 50%;
+        margin: 0 auto;
     }
 
     .logo {
